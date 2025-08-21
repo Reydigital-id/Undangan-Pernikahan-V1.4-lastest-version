@@ -12,7 +12,6 @@ body {
 .hero::before {
   content: "";
   position: absolute;
-  background-image: url("/img/background2.jpg");
   background-size: cover;
   background-position: center;
   top: 0;
@@ -26,6 +25,7 @@ body {
 .hero {
   position: relative;
   min-height: 100vh;
+  background-image: url("/img/background2.jpg");
 }
 
 .hero h1,
@@ -529,3 +529,4 @@ footer i {
     top: 31px;
   }
 }
+
